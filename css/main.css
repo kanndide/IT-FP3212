@@ -1,0 +1,5 @@
+/* This is the main CSS stylesheet for this webnsite. It will give global styles to any particular attribute or class within the HTML files. Making style changes here will make changes on every page, as lonmg as the fikle is linked wthin each file.*/
+
+body {
+    background-color: #d5d9e5;
+}
