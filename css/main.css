@@ -43,6 +43,7 @@ h3 {
 
 p {
     font-family: "Roboto";
+    margin: 25px 25px 25px 25px;
 }
 
 footer {
@@ -73,3 +74,16 @@ nav ul li a {
 nav ul li a:visited {
     color: black;
 }
+
+/* Styling for tables */
+
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+
