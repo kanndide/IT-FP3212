@@ -47,15 +47,11 @@ p {
 }
 
 footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 40px;
-    width: 100%;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     font-family: "Playfair Display";
-    align-items: center;
     text-align: center;
-    box-shadow: 0 0 15px 0 black;
 }
 
 /* Styling for navbar elements */
@@ -94,4 +90,12 @@ th, td {
     text-align: center;
 }
 
+/* Styling for columns and rows for each page */
 
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
