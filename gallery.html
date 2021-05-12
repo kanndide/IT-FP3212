@@ -51,18 +51,55 @@
         
         <!-- The section tag is broad, and can contain articles, which are indiividual portions of t            the section. There can be multiple sections. -->
 
-        <section>
+        <h2>Gallery</h2>
 
-            <h2>Gallery</h2>
+        <section class="row">
 
-            <!-- The article tage represents different secitons of content within the page, such as                 single blog entries. -->
+            <!-- This is the image gallery. Referenced from w3schools -->
+            
+            <div class="gallery">
+                <a target="_blank" href="media/jc-gellidon-Ow16ATZrs90-unsplash.jpg">
+                    <img src="media/jc-gellidon-Ow16ATZrs90-unsplash.jpg" alt="Pump" width="600" height="400">
+                </a>
+                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec dictum mauris. Nam lacinia elit nec consequat tincidunt.</div>
+            </div>
 
-            <article>
-                <h3>Information</h3>
-                <p>  Lorem Ipsum... </p>
-            </article>
+            <div class="gallery">
+                <a target="_blank" href="media/jc-gellidon-Ow16ATZrs90-unsplash.jpg">
+                    <img src="media/markus-spiske-4p0lT6_bRVU-unsplash.jpg" alt="Gear1" width="600" height="400">
+                </a>
+                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec dictum mauris. Nam lacinia elit nec consequat tincidunt.</div>
+            </div>
 
+            <div class="gallery">
+                <a target="_blank" href="media/jc-gellidon-Ow16ATZrs90-unsplash.jpg">
+                    <img src="media/philipp-berg-sU76FZ1417U-unsplash.jpg" alt="Gear2" width="600" height="400">
+                </a>
+                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec dictum mauris. Nam lacinia elit nec consequat tincidunt.</div>
+            </div>
 
+        </section>
+
+        <!-- Embedded video from Youtube. div wrapper is used for styling purposes. Then decided section instead. Then both. -->
+           
+        <h3>This is a Video About Aliens</h3>
+
+        <section class="row">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NgRigA79J2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Embedded Audio from already forgotten royalty free audio website. -->
+
+        <h3>This is some Guitar</h3>
+
+        <section class="row">
+            <div class="audio">
+                <audio controls="controls" src="media/nightlife-michael-kobrin-95bpm-3783.mp3">
+                    Your browser does not support the HTML5 Audio element.
+                </audio>
+            </div>
         </section>
 
         <!-- The footer is similar to a section, except that it is specifically the footer... -->
